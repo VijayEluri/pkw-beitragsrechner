@@ -4,19 +4,6 @@ apply plugin: 'eclipse'
 
 defaultTasks 'clean', 'check'
 
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
-}
-
 repositories {
     mavenCentral()
 }
