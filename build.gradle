@@ -12,7 +12,6 @@ dependencies {
     testCompile 'junit:junit:4.11'
 }
 
-tasks.eclipse.dependsOn(cleanEclipse)
 eclipse.jdt {
     sourceCompatibility = 1.7
 }
