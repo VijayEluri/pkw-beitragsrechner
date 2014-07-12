@@ -15,3 +15,7 @@ dependencies {
 eclipse.jdt {
     sourceCompatibility = 1.7
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
